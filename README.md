@@ -7,6 +7,20 @@ In this repository We will take a record of credit card transactions and use SQL
     - Fist, we will define a database model to store the credit card transactions data and create a new PostgreSQL database using our model.
     - We will create an ERD (Entity Relationship Diagram) where we will visualize the datasets we have.
 
+
+
+ This is the ERD that we made with [Quick Database DIagrams](https://www.quickdatabasediagrams.com)
+
+ ![ERD](Pictures/ERD_SQL.png)
+
+
+
+
+
+
+
+
+
 * Data Engineering
     - Then we will create a database schema on PostgreSQL and populate the database.
     - This we consist of a database schema for each of the tables and the relationships. We wil specify data types, primary keys, foreign keys, and any other constraints.
@@ -27,11 +41,11 @@ In this repository We will take a record of credit card transactions and use SQL
 
      After all this I will create a visual data analysis of fraudulent transactions using Pandas, Plotly, hvPLot and SQLAlchemy.
 
-        - Verify if there are any fraudulent transactions in the history of two of the most important customers of the firm. For privacy reasons, you only know that their cardholders' IDs are 18 and 2.
+    - Verify if there are any fraudulent transactions in the history of two of the most important customers of the firm. For privacy reasons, you only know that their cardholders' IDs are 18 and 2.
 
 
 
-            - Using hvPlot, create a line plot representing the time series of transactions over the course of the year for each cardholder. In order to compare the patterns of both cardholders, create a line plot containing both lines.
+        - Using hvPlot, create a line plot representing the time series of transactions over the course of the year for each cardholder. In order to compare the patterns of both cardholders, create a line plot containing both lines.
 
 
 
