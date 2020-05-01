@@ -45,6 +45,18 @@ In this repository We will take a record of credit card transactions and use SQL
 
 
 
+After looking through the data from multiple tables, we pulled certain information from two tables (transaction & credit_card) to take a look at and instances of possible fraud.
+## Cardholders ID #2 
+For Cardholder ID #2, we noticed pretty regular spending. All of the purchases were within a certain range and made at evenly distributed times.
+
+![transactions_2](Pictures/transactions_2.png)
+
+## Cardholder ID #18
+Cardholder ID# 18 had different spending habits. Although there were similar smaller purchases, there were also periodic purchases that were vastly outside the standard deviation. These purchases occurred once a month and always on one particular credit card. This is definately something that should be looked into further for possible fraud.
+
+![transactions_18](Pictures/transactions_18.png)
+
+
         - Using hvPlot, create a line plot representing the time series of transactions over the course of the year for each cardholder. In order to compare the patterns of both cardholders, create a line plot containing both lines.
 
 
